@@ -27,7 +27,7 @@ Rick and Morty Quiz is a React-based quiz application that tests users on their 
 - **React Query** – for handling asynchronous data fetching and caching.
 - **TypeScript** – for type safety and enhanced developer experience.
 - **Vite** – for fast development and build times.
-- **Tailwind CSS / Custom CSS** – for styling (as seen in the provided CSS).
+- **Tailwind CSS / Custom CSS** – for styling.
 - **Lucide React** – for iconography.
 
 ## Project Structure
@@ -58,10 +58,10 @@ rick-and-morty-quiz/
 │              ├── dropdown-menu.tsx # Example Dropdown Menu component
 │              ├── index.ts          # Barrel file for UI exports
 │              ├── separator.tsx     # Reusable Separator/Divider component
-│          ├── index.tsx        #  Additional exports
-│          │
-│          ├── lib/                    # Utility libraries or helpers
-│          └── styles/                 # Global or component-specific styles
+│          └── index.tsx        #  Additional exports
+│      │
+│      ├── lib/                    # Utility libraries or helpers
+│      └── styles/                 # Global or component-specific styles
 │
 ├── .gitignore
 ├── components.json             # Config file or metadata for components
