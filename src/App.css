@@ -1,0 +1,71 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.dark .container {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.question-card {
+  margin: 20px 0;
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.light .options button {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark .options button {
+  background-color: #555;
+  color: #fff;
+}
+
+.options button:hover {
+  opacity: 0.9;
+}
